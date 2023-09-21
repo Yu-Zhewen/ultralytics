@@ -45,7 +45,7 @@ class AutoBackend(nn.Module):
                  dnn=False,
                  data=None,
                  fp16=False,
-                 fuse=True,
+                 fuse=False,
                  verbose=True):
         """
         MultiBackend class for python inference on various platforms using Ultralytics YOLO.
